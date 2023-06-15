@@ -136,7 +136,6 @@ class decode:
             print("NOT EXISTS")
             
 
-
 # main
 if __name__ == "__main__":
     # codeIndex = ['M','m', 'P', 'p', 'S', 's', 'R', 'r']
@@ -144,6 +143,8 @@ if __name__ == "__main__":
     cmd = int(input("Enter the command: "))
     if cmd == 1:
         Decode.printSep()
+    elif cmd == 2:
+        print(Decode.decodeCmd(input("Enter the code: ")))
         
 
 
